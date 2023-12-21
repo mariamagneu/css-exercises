@@ -1,4 +1,4 @@
-.class1,.coolerclass {
+.class1 {
     font-family: Verdana, "DejaVu Sans", sans-serif;
     background-color: lightpink;
 }
@@ -8,8 +8,9 @@ font-size: 36px;
 font-family:  sans-serif;
 }
 
-.coolerclass
-{font-size: 24px}
+.class2
+{font-size: 24px;
+}
 
 #two {
     background-color: lightgreen;
