@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,16 +20,22 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 18px;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
 }
 .container {
   display: flex;
   flex-direction: column;
+
 }
 
 .header-container {
   display: flex;
   align-items: center;
 }
+
 .icon {
   color: royalblue;
   font-size: 26px;
